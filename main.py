@@ -124,7 +124,7 @@ def handle(update):
 				#		with open('is.txt', 'w') as f:
 				#			f.write(user_ids+"\n"+str(uid))
 				#			keyboard1 = ReplyKeyboardRemove()
-				#			#keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="ɪɴsᴛᴀɢʀᴀᴍ", url="https://instagram.com/davialfajr_"),InlineKeyboardButton(text="ᴛɪᴋᴛᴏᴋ", url="https://vm.tiktok.com/ZSJC6FWw2/")]])
+				#			#keyboard = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="ɪɴsᴛᴀɢʀᴀᴍ", url="https://instagram.com/nishfu_im"),InlineKeyboardButton(text="ᴛɪᴋᴛᴏᴋ", url="https://vm.tiktok.com/ZSJC6FWw2/")]])
 				#			bot.sendMessage(uid,"_⚡️ NF BOT CHAT ANONYMOUS ⚡️\n\nKAMU DAPAT MENEMUKAN TEMAN\nSECARA RANDOM 🦊 TEKAN [ /start ]_", parse_mode="MarkDown", reply_markup=keyboard1, reply_to_message_id=update['message_id'])
 				#	else:
 				#keyboard1 = ReplyKeyboardMarkup(keyboard=[['Search 🔍'],['Pengguna👤','MENU BOT✅']], resize_keyboard=True, one_time_keyboard=True)
