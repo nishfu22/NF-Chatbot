@@ -31,7 +31,7 @@ def saveConfig(data):
 
 if __name__ == '__main__':
 	s = time.time()
-	print('[#] Buatan\n[i] Created by Davi ALFajr\n')
+	print('[#] Buatan\n[i] Created by Nishfu IM\n')
 	print('[#] mengecek config...')
 	if not os.path.isfile('config.json'):
 		print('[#] memebuat config file...')
@@ -263,7 +263,7 @@ def handle(update):
 			keyboard = ReplyKeyboardMarkup(keyboard=[
 				['Info Profile 📌','Covid-19〽️'],['🔙 Main Menu']
 			], resize_keyboard=True, one_time_keyboard=True)
-			bot.sendMessage(uid, "Welcome My boo🙊\nYuk Join My Grup @caritemanh dan Channel @haluituenakkkk :)", reply_markup=keyboard)
+			bot.sendMessage(uid, "Welcome Nishfu IM💕\nYuk Join My Grup @HappyZgameBot dan Channel @kutipankitaa :)", reply_markup=keyboard)
 
 		elif text == 'Covid-19〽️':
 			web = requests.get('https://www.worldometers.info/coronavirus/country/indonesia/')
